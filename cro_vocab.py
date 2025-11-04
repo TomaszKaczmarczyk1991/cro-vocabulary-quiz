@@ -3,7 +3,7 @@ import random
 words = {
     # PODSTAWOWE SŁOWA & ZWROTY
     "da": "tak","ne": "nie","možda": "może","dobro": "dobrze","loše": "źle","molim": "proszę","hvala": "dziękuję",
-    "izvoli": "proszę (podając)","oprosti": "przepraszam (nieformalne)","oprostite": "przepraszam (formalne)",
+    "izvoli": "proszę (podając)","oprosti": "przepraszam","oprostite": "przepraszam",
     "bok": "cześć","zdravo": "witaj","dobar dan": "dzień dobry","dobro jutro": "dzień dobry (rano)",
     "dobra večer": "dobry wieczór","laku noć": "dobranoc","kako si?": "jak się masz?","dobro sam": "mam się dobrze",
     "razumijem": "rozumiem","ne razumijem": "nie rozumiem","daj mi": "daj mi","mogu": "mogę","ne mogu": "nie mogę",
@@ -43,7 +43,7 @@ words = {
     "sendvič": "kanapka","pizza": "pizza","juha": "zupa","čokolada": "czekolada","keks": "ciastko",
     "med": "miód","brašno": "mąka","pile": "kurczak","govedina": "wołowina","svinjetina": "wieprzowina",
     "krumpir": "ziemniak","mrkva": "marchew","jabuka": "jabłko","banana": "banan","naranča": "pomarańcza",
-    "limun": "cytryna","lubenica": "arbuz","grožđe": "winogrona",
+    "limun": "cytryna","lubenica": "arbuz","grožđe": "winogrona","krastavac": "ogórek",
 
     # NAPOJE
     "sok": "sok","voda gazirana": "woda gazowana","voda negazirana": "woda niegazowana","rakija": "rakija",
@@ -111,6 +111,14 @@ words = {
     "računalo": "komputer","tipkovnica": "klawiatura","miš": "mysz","internet": "internet",
     "aplikacija": "aplikacja","lozinka": "hasło","račun": "konto","wifi": "wifi","ekran": "ekran",
     "slika": "zdjęcie","kamera": "kamera",
+
+    # INSTRUMENTY MUZYCZNE
+    "gitara": "gitara","klavir": "fortepian/pianino","violina": "skrzypce","flauta": "flet",
+    "truba": "trąbka","saksofon": "saksofon","bubnjevi": "perkusja/bębny","harmonika": "akordeon",
+    "ukulele": "ukulele","trombon": "puzon","klarinet": "klarnet","harfa": "harfa","mandolina": "mandolina",
+    "tamburica": "tamburica","orgulje": "organy","bas gitara": "gitara basowa","čelo": "wiolonczela",
+    "kontrabas": "kontrabas","sintisajzer": "syntezator","električna gitara": "gitara elektryczna",
+    "MIDI kontroler": "kontroler MIDI","kalimba": "kalimba",
 
     # ZDROWIE
     "doktor": "doktor","tableta": "tabletka","čaj": "herbata","bol": "ból","glavobolja": "ból głowy",
